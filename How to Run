@@ -1,0 +1,9 @@
+1. Clone the repository:
+
+git clone https://github.com/SyeedHamid/DataTalent-Capstone-1.git cd DataTalent-Capstone-1
+
+2. Install dependencies:
+
+pip install -r requirements.txt
+
+jupyter notebook notebooks/
