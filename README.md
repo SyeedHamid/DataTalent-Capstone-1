@@ -39,8 +39,7 @@ Dataset
 **Key Results**
 - Detected top 10 abrupt temperature shifts across the dataset
 - Ensemble models (Gradient Boosting, Random Forest) achieved R² > 0.88
-- Year was the dominant feature, confirming long-term warming trend
+- Year was the dominant feature, confirming the long-term warming trend
 - Visualizations revealed seasonal variability and distribution of anomalies
 - Pipeline is reproducible, scalable, and ready for forecasting extensions
 
-Let me know if you want this formatted for your GitHub README.md, or turned into a slide for your final presentation. You're presenting a clean, rigorous analysis—exactly what a capstone should be.
