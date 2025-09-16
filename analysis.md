@@ -1,5 +1,5 @@
-**
-Project Analysis:**
+
+**Project Analysis:**
 
 
 This project analyzes global temperature anomaly data to uncover meaningful shifts in climate behavior over time. Using the HadCRUT4 dataset, we applied statistical smoothing, seasonal decomposition, and machine learning regression to:
