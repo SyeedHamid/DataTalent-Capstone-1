@@ -1,43 +1,46 @@
-# DataTalent-Capstone-1
-Capstone File
+**
+DataTalent-Capstone-1
+Global Temperature Anomaly Detection
+Capstone Project – DataTalent Program**
 
- Global Temperature Anomaly Detection  
-**Capstone Project – DataTalent Program**
+**Overview**
+This project analyzes global surface temperature anomalies to detect significant climate shifts using time series analysis, statistical anomaly detection, and supervised machine learning. The goal is to identify long-term warming trends and abrupt month-over-month changes, and to validate these findings using ensemble models.
+Dataset
 
-## Overview
+- Source: Kaggle (HadCRUT4/5 ensemble dataset)- https://www.kaggle.com/datasets/rupindersinghrana/global-temperature-anomalies
+- Coverage: Monthly global surface temperature anomalies from 1880 to 2023
+- Format: CSV (cleaned and transformed from ensemble realizations)
+- Features: Year, Month, Median anomaly, Rolling average, Month-over-month change
 
-This project explores global temperature anomalies using time series analysis, statistical anomaly detection, and supervised machine learning. Developed as part of the DataTalent Capstone Program, the goal was to identify significant deviations in climate patterns, model long-term temperature trends, and visualize the results using real-world climate data.
-
-## Dataset
-
-- **Global Temperature Anomalies**  
-  Monthly surface temperature anomalies from 1880 to 2023, sourced from Kaggle and the HadCRUT5 ensemble dataset.  
-  Formats include CSV and NetCDF.
-
-## Tools and Technologies
-
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn  
-- Statsmodels  
-- Xarray (for NetCDF data)  
-- Azure ML Studio  
+  
+**Tools and Technologies**
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+- Azure Blob Storage
 - Jupyter Notebook
+- Azure ML Studio (optional for deployment)
 
-## Methodology
+  
+**Methodology**
+- Exploratory Data Analysis (EDA)
+- Feature engineering: rolling averages, anomaly deltas
+- Statistical detection of top anomaly shifts
+- Supervised regression using:
+- Linear Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+- Model evaluation using R² and MSE
+- Feature importance analysis for interpretability
 
-- Exploratory Data Analysis (EDA)  
-- Time Series Analysis: rolling averages, stationarity testing, seasonal decomposition  
-- Anomaly Detection: S-H-ESD  
-- Supervised ML: Linear Regression, Decision Tree  
-- Geospatial Data Handling: NetCDF via Azure ML Studio
+  
+**Key Results**
+- Detected top 10 abrupt temperature shifts across the dataset
+- Ensemble models (Gradient Boosting, Random Forest) achieved R² > 0.88
+- Year was the dominant feature, confirming long-term warming trend
+- Visualizations revealed seasonal variability and distribution of anomalies
+- Pipeline is reproducible, scalable, and ready for forecasting extensions
 
-## Key Results
-
-- Detected statistically significant anomalies in global temperature trends  
-- Regression models approximated long-term shifts with varying accuracy  
-- Rolling averages and decomposition revealed persistent warming phases  
-- Ensemble mean data supports future geospatial climate modeling
-
-
+Let me know if you want this formatted for your GitHub README.md, or turned into a slide for your final presentation. You're presenting a clean, rigorous analysis—exactly what a capstone should be.
