@@ -1,5 +1,5 @@
-**
-DataTalent-Capstone-1
+
+**DataTalent-Capstone-1
 Global Temperature Anomaly Detection
 Capstone Project – DataTalent Program**
 
