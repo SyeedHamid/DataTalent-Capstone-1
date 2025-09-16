@@ -1,9 +1,11 @@
-1. Clone the repository:
+git clone https://github.com/your-username/climate-anomaly-analysis.git
+cd climate-anomaly-analysis
 
-git clone https://github.com/SyeedHamid/DataTalent-Capstone-1.git cd DataTalent-Capstone-1
-
-2. Install dependencies:
-
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 
-jupyter notebook notebooks/
+
+connection_string = "your_connection_string"
+container_name = "your_container"
+blob_name = "your_dataset.csv"
